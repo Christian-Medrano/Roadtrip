@@ -87,13 +87,12 @@
 	50% {transform:rotate(240deg);}
 	100% {transform:rotate(0deg);}
 }
-
-#scan-knob {
+.scan-knob {
 	animation: knobScan 3s;
 	transform-origin: 50% 50% 0;
 }
 
-#scan-knob.scanning {
+.scan-knob.scanning {
 	animation: knobScan 3s;
 	transform-origin: 50% 50% 0;
 }

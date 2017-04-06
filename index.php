@@ -2,6 +2,8 @@
 	$tod = 12;
 	$isNight = false;
 	@include 'functions.php';
+
+
  ?>
 
 <!DOCTYPE html>
@@ -48,8 +50,8 @@
 			$( ".control-tod" ).click(function() {
 			  $('.sky').toggleClass('at-night');
 			});
-			$( "#scan-knob" ).click(function() {
-			  $(this).toggleClass('scanning');
+			$( ".scan-knob" ).click(function() {
+			  $('.scan-knob', '#marker').toggleClass('scanning');
 			});
 		});
 	</script>

@@ -1,7 +1,6 @@
 <?php 
 
-	function setSky() {
+	function switchSong(){
 		
 	};
-
  ?>
