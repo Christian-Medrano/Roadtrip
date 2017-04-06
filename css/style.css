@@ -44,6 +44,15 @@
 	transform-origin: 50% 50% 0;
 }
 
+@keyframes passCloud {
+	0% {transform:translateX(0%);}
+	100% {transform:translateX(-400%);}
+}
+
+#cloud {
+	animation: passCloud linear 60s infinite;
+}
+
 
 
 
