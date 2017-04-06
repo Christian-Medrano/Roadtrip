@@ -19,13 +19,15 @@
 }
 
 .dotted-line {
-	animation: pass 0.25s infinite;
+	animation: pass 0.10s linear infinite;
 }
-@keyframes pass { 20% {transform:translateX(20%); } }
+@keyframes pass { 100% {transform:translateX(-5.5%);} }
 
 #car {
 	transition: transform 2s;
+	animation: bounce 1s infinite;
 }
+@keyframes bounce {}
 
 #car.in-lane-2 {
 	transform: translate(20%, -65%);
