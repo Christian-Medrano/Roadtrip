@@ -19,14 +19,20 @@
 		.rail1{fill:#B3B3B3;}
 		.rail2{fill:#C8C8C8;}
 		.car-shadow{opacity:0.29;}
+		.distant-mtn{fill:#90A6C4;}
+		.near-mtn{fill:#79969A;}
 		
 		.st7{fill:#C8C8C8;}
 		.st8{fill:#FFFFFF;}
 		.st9{fill:#C8C8C8;}
 		.st10{fill:#5A5A5A;stroke:#C8C8C8;stroke-miterlimit:10;}
 
+
 	  </style>
 	    <rect class="sky" width="1920" height="791"/>
+	    <polygon class="distant-mtn" points="1920,225 1920,20 1473.6,129.6 1397,96.6 1170.2,156.2 1170.2,225"/>
+	    <polygon class="near-mtn" points="0,225 0,171.6 177.9,84.6 244.5,101.1 492.6,20 935.1,122.5 1013.1,102.6 1142.1,147.6 
+	    	1347.6,210.6 1404.6,189.6 1742.1,225 	"/>
 	    <rect y="225" class="grass" width="1920" height="566"/>
 	    <rect y="368" class="road" width="1920" height="423"/>
 

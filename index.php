@@ -1,9 +1,7 @@
 <?php 
-	$time = date();
-
-	function makeTree($pageReady) {
-
-	};
+	$tod = 12;
+	$isNight = false;
+	@include 'functions.php';
  ?>
 
 <!DOCTYPE html>
@@ -19,6 +17,7 @@
 	<main class="container text-center py-4">
 		<h1>Let's go on a roadtrip!</h1>
 		<?php @include 'images/svg-roadtrip.php'; ?>
+		<button class="btn btn-default control-tod"><h3>☼</h3></button>
 	</main>
 
 
@@ -26,7 +25,6 @@
 
 	<script>
 		$( document ).ready(function() {
-			$pageReady = true;
 			$( ".body" ).click(function() {
 			  $(this).toggleClass('is-red');
 			});
@@ -34,6 +32,10 @@
 				$('#car').toggleClass('in-lane-2');
 				$carIsInLane2 = true;
 			});
+			$( ".control-tod" ).click(function() {
+			  $('.sky').toggleClass('at-night');
+			});
+
 		});
 	</script>
 

@@ -1,7 +1,7 @@
 .sky{fill:#5EC7F5;}
 .grass{fill:#4D944F;}
 .road{fill:#4D4D4D;}
-.dotted-line{fill:none;stroke:#FFFF00;stroke-width:25;stroke-miterlimit:10;stroke-dasharray:75,50,0,0,0,0;}
+.dotted-line{fill:none;stroke:#FFFFFF;stroke-width:25;stroke-miterlimit:10;stroke-dasharray:100,100,0,0,0,0;}
 .body{fill:#0071BC;}
 .rear-bumper{fill:#B3B3B3;}
 .front-bumper{fill:#B3B3B3;}
@@ -10,6 +10,16 @@
 .rear-tire{fill:#1A1A1A;}
 .front-tire{fill:#1A1A1A;}
 .posts{fill:none;stroke:#4F3D1F;stroke-width:26;stroke-miterlimit:10;stroke-dasharray:26,102,0,0,0,0;}
+.rail1{fill:#B3B3B3;}
+.rail2{fill:#C8C8C8;}
+.car-shadow{opacity:0.29;}
+.distant-mtn{fill:#90A6C4;}
+.near-mtn{fill:#79969A;}
+		
+.st7{fill:#C8C8C8;}
+.st8{fill:#FFFFFF;}
+.st9{fill:#C8C8C8;}
+.st10{fill:#5A5A5A;stroke:#C8C8C8;stroke-miterlimit:10;}
 
 .body {
   transition: fill 1s;
@@ -67,4 +77,12 @@
 	
 	transform: scale(0.9);
 	transform: translate(0%, -55%);
+}
+
+.sky{
+	transition: fill 5s;
+}
+
+.sky.at-night {
+	fill: #000;
 }
