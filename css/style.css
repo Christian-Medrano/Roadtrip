@@ -1,26 +1,3 @@
-.sky{fill:#5EC7F5;}
-.grass{fill:#4D944F;}
-.road{fill:#4D4D4D;}
-.dotted-line{fill:none;stroke:#FFFFFF;stroke-width:25;stroke-miterlimit:10;stroke-dasharray:100,100,0,0,0,0;}
-.body{fill:#0071BC;}
-.rear-bumper{fill:#B3B3B3;}
-.front-bumper{fill:#B3B3B3;}
-.rear-rim{fill:#B3B3B3;}
-.front-rim{fill:#B3B3B3;}
-.rear-tire{fill:#1A1A1A;}
-.front-tire{fill:#1A1A1A;}
-.posts{fill:none;stroke:#4F3D1F;stroke-width:26;stroke-miterlimit:10;stroke-dasharray:26,102,0,0,0,0;}
-.rail1{fill:#B3B3B3;}
-.rail2{fill:#C8C8C8;}
-.car-shadow{opacity:0.29;}
-.distant-mtn{fill:#90A6C4;}
-.near-mtn{fill:#79969A;}
-		
-.st7{fill:#C8C8C8;}
-.st8{fill:#FFFFFF;}
-.st9{fill:#C8C8C8;}
-.st10{fill:#5A5A5A;stroke:#C8C8C8;stroke-miterlimit:10;}
-
 .body {
   transition: fill 1s;
 }
@@ -37,12 +14,12 @@
 	100% {transform:translateX(-7.1%);}
 }
 
-.posts {
- animation: passPosts 0.4s linear infinite;
+#gaurd-rail {
+ animation: passPosts 0.2s linear infinite;
 }
 @keyframes passPosts { 
 	0% {transform:translateX(0%);}
-	100% {transform:translateX(-11.5%);} 
+	100% {transform:translateX(-5.75%);} 
 }
 
 @keyframes spin {
@@ -62,9 +39,6 @@
 #cloud {
 	animation: passCloud linear 60s infinite;
 }
-
-
-
 
 #car {
 	transition: transform 2s;
@@ -86,3 +60,56 @@
 .sky.at-night {
 	fill: #000;
 }
+
+#radio {
+	z-index: 1;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+@keyframes markerScan {
+	0% {transform:translateX(0%);}
+	50% {transform:translateX(1000%);}
+	100% {transform:translateX(0%);}
+}
+
+#marker {
+	animation: markerScan 3s;
+}
+
+#marker.scanning {
+	animation: markerScan 3s;
+}
+
+@keyframes knobScan {
+	0% {transform:rotate(0deg);}
+	50% {transform:rotate(240deg);}
+	100% {transform:rotate(0deg);}
+}
+
+#scan-knob {
+	animation: knobScan 3s;
+	transform-origin: 50% 50% 0;
+}
+
+#scan-knob.scanning {
+	animation: knobScan 3s;
+	transform-origin: 50% 50% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

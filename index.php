@@ -14,10 +14,23 @@
 </head>
 <body>
 
-	<main class="container text-center py-4">
+	<main class="container-fluid text-center py-4">
+
 		<h1>Let's go on a roadtrip!</h1>
-		<?php @include 'images/svg-roadtrip.php'; ?>
-		<button class="btn btn-default control-tod"><h3>☼</h3></button>
+		<div class="row">
+			<div class="col screen">
+				<?php include 'images/svg-roadtrip.php'; ?>
+				<?php include 'images/svg-radio.php'; ?>
+			</div>
+		</div>
+		<audio controls autoplay>
+		  <source src="audio/music/Rascal-Flatts _Life-is-a-Highway.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
+
+		<div class="container">
+			<button class="btn btn-default control-tod"><h3>☼</h3></button>
+		</div>
 	</main>
 
 
@@ -35,7 +48,9 @@
 			$( ".control-tod" ).click(function() {
 			  $('.sky').toggleClass('at-night');
 			});
-
+			$( "#scan-knob" ).click(function() {
+			  $(this).toggleClass('scanning');
+			});
 		});
 	</script>
 

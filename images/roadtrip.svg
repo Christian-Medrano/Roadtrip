@@ -32,8 +32,8 @@
 <g id="gaurd-rail">
 	<line id="posts" class="st5" x1="-127" y1="369.6" x2="2085" y2="369.6"/>
 	<g id="rail">
-		<rect x="-127" y="312" class="st6" width="2218.5" height="44"/>
-		<rect x="-127" y="325" class="st7" width="2223" height="17"/>
+		<rect x="-127" y="312" class="st6" width="2212" height="44"/>
+		<rect x="-127" y="325" class="st7" width="2212" height="17"/>
 	</g>
 	<line id="rivets" class="st8" x1="-116" y1="334" x2="2096" y2="334"/>
 </g>

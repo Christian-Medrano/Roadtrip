@@ -21,6 +21,7 @@
 		.car-shadow{opacity:0.29;}
 		.distant-mtn{fill:#90A6C4;}
 		.near-mtn{fill:#79969A;}
+		.rivets{fill:none;stroke:#4F4E53;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:6,122,0,0,0,0;}
 		
 		.st7{fill:#C8C8C8;}
 		.st8{fill:#FFFFFF;}
@@ -38,9 +39,14 @@
 
 	    <line class="dotted-line" x1="0" y1="579.5" x2="2794" y2="579.5"/>
 
-	    <line id="posts" class="posts" x1="-127" y1="354.6" x2="2085" y2="354.6"/>
-	    <rect y="297" class="rail1" width="1920" height="44"/>
-	    <rect y="310" class="rail2" width="1920" height="17"/>
+	    <g id="gaurd-rail">
+	    	<line class="posts" x1="-127" y1="369.6" x2="2085" y2="369.6"/>
+	    	<g id="rail">
+	    		<rect x="-127" y="312" class="rail1" width="2212" height="44"/>
+	    		<rect x="-127" y="325" class="rail2" width="2212" height="17"/>
+	    	</g>
+	    	<line class="rivets" x1="-116" y1="334" x2="2096" y2="334"/>
+	    </g>
 
 		<g id="car">
 			<path class="car-shadow" d="M900,738H126c-6.6,0-12-5.4-12-12v-4.3c0-6.6,5.4-12,12-12h774c6.6,0,12,5.4,12,12v4.3
