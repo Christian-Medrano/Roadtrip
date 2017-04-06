@@ -1,3 +1,11 @@
+<?php 
+	$time = date();
+
+	function makeTree($pageReady) {
+
+	};
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,11 +26,13 @@
 
 	<script>
 		$( document ).ready(function() {
+			$pageReady = true;
 			$( ".body" ).click(function() {
 			  $(this).toggleClass('is-red');
 			});
 			$('.road').click(function() {
 				$('#car').toggleClass('in-lane-2');
+				$carIsInLane2 = true;
 			});
 		});
 	</script>

@@ -1,43 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 791" style="enable-background:new 0 0 1920 791;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#5EC7F5;}
 	.st1{fill:#4D944F;}
-	.st2{fill:#4D4D4D;}
-	.st3{fill:none;stroke:#FFFF00;stroke-width:25;stroke-miterlimit:10;stroke-dasharray:75,50,0,0,0,0;}
-	.st4{fill:#0071BC;}
-	.st5{fill:#B3B3B3;}
-	.st6{fill:#1A1A1A;}
+	.st2{fill:#5A5A5A;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:25;stroke-miterlimit:10;stroke-dasharray:100,100,0,0,0,0;}
+	.st4{opacity:0.29;}
+	.st5{fill:#0071BC;}
+	.st6{fill:#B3B3B3;}
+	.st7{fill:#C8C8C8;}
+	.st8{fill:#FFFFFF;}
+	.st9{fill:#1A1A1A;}
+	.st10{fill:#5A5A5A;stroke:#C8C8C8;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#4F3D1F;stroke-width:26;stroke-miterlimit:10;stroke-dasharray:26,102,0,0,0,0;}
 </style>
 <g id="background">
 	<rect id="sky_1_" class="st0" width="1920" height="791"/>
 	<rect id="grass_1_" y="225" class="st1" width="1920" height="566"/>
-	<rect id="road_1_" y="368" class="road" width="1920" height="423"/>
+	<rect id="road_1_" y="368" class="st2" width="1920" height="423"/>
 </g>
 <g id="line">
-	<line id="dotted-line" class="st3" x1="-124" y1="579.5" x2="2088" y2="579.5"/>
+	<line id="dotted-line" class="st3" x1="0" y1="579.5" x2="2794" y2="579.5"/>
 </g>
 <g id="car">
+	<path id="car-shadow" class="st4" d="M900,738H126c-6.6,0-12-5.4-12-12v-4.3c0-6.6,5.4-12,12-12h774c6.6,0,12,5.4,12,12v4.3
+		C912,732.6,906.6,738,900,738z"/>
 	<g id="wagon">
-		<path id="body" class="st4" d="M137,665l749.5-0.5L886,582c0,0-5.4-41.7-39-47c-146-23-146-23-146-23s-58-64-98-94s-312,0-312,0
+		<path id="body" class="st5" d="M137,665l749.5-0.5L886,582c0,0-5.4-41.7-39-47c-146-23-146-23-146-23s-58-64-98-94s-312,0-312,0
 			s-116,76-136,129S137,665,137,665z"/>
-		<path id="rear-bumper" class="st5" d="M162,674h-36c-6.6,0-12-5.4-12-12v-23c0-6.6,5.4-12,12-12h36c6.6,0,12,5.4,12,12v23
+		<path id="rear-bumper" class="st6" d="M162,674h-36c-6.6,0-12-5.4-12-12v-23c0-6.6,5.4-12,12-12h36c6.6,0,12,5.4,12,12v23
 			C174,668.6,168.6,674,162,674z"/>
-		<path id="front-bumper" class="st5" d="M900,674h-36c-6.6,0-12-5.4-12-12v-23c0-6.6,5.4-12,12-12h36c6.6,0,12,5.4,12,12v23
+		<path id="front-bumper" class="st6" d="M900,674h-36c-6.6,0-12-5.4-12-12v-23c0-6.6,5.4-12,12-12h36c6.6,0,12,5.4,12,12v23
 			C912,668.6,906.6,674,900,674z"/>
 		<path id="rear-windshield" d="M270.7,432L203,512h-25.1C177.9,512,214.5,465,270.7,432z"/>
 		<rect id="rear-window" x="295" y="432" width="147" height="80"/>
 		<polygon id="front-window" points="601.8,432.5 461,432 461,512 684,512 		"/>
+		<g id="headlight">
+			
+				<ellipse transform="matrix(0.8876 -0.4606 0.4606 0.8876 -162.9001 463.8493)" class="st7" cx="869" cy="565.7" rx="5.1" ry="24.1"/>
+			
+				<ellipse transform="matrix(0.8876 -0.4606 0.4606 0.8876 -163.0606 463.3764)" class="st8" cx="868" cy="565.8" rx="4.1" ry="19.1"/>
+		</g>
 	</g>
 	<g id="front-wheel_1_">
-		<circle id="front-tire" class="st6" cx="703" cy="665" r="73"/>
-		<circle id="front-rim" class="st5" cx="703" cy="665" r="41"/>
+		<circle id="front-tire" class="st9" cx="703" cy="665" r="73"/>
+		<circle id="front-rim" class="st6" cx="703" cy="665" r="41"/>
+		<g id="rear-wheel-blur_1_">
+			<path class="st7" d="M703,665.1l-34,13.5c0,0-8.1-17.2,2-33.2L703,665.1z"/>
+			<path class="st7" d="M703,664.9l34-13.5c0,0,8.1,17.2-2,33.2L703,664.9z"/>
+			<circle class="st10" cx="703" cy="664.9" r="5"/>
+		</g>
 	</g>
 	<g id="rear-wheel_1_">
-		<circle id="rear-tire_2_" class="st6" cx="263" cy="665" r="73"/>
-		<circle id="rear-rim_2_" class="st5" cx="263" cy="665" r="41"/>
+		<circle id="rear-tire_2_" class="st9" cx="263" cy="665" r="73"/>
+		<circle id="rear-rim_2_" class="st6" cx="263" cy="665" r="41"/>
+		<g id="rear-wheel-blur">
+			<path class="st7" d="M263,664.2l-34,13.5c0,0-8.1-17.2,2-33.2L263,664.2z"/>
+			<path class="st7" d="M263,664l34-13.5c0,0,8.1,17.2-2,33.2L263,664z"/>
+			<circle class="st10" cx="263" cy="664" r="5"/>
+		</g>
 	</g>
+</g>
+<g>
+	<g id="line_1_">
+		<line id="posts" class="st11" x1="-127" y1="354.6" x2="2085" y2="354.6"/>
+	</g>
+	<rect y="297" class="st6" width="1920" height="44"/>
+	<rect y="310" class="st7" width="1920" height="17"/>
 </g>
 </svg>

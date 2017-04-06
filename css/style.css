@@ -9,6 +9,7 @@
 .front-rim{fill:#B3B3B3;}
 .rear-tire{fill:#1A1A1A;}
 .front-tire{fill:#1A1A1A;}
+.posts{fill:none;stroke:#4F3D1F;stroke-width:26;stroke-miterlimit:10;stroke-dasharray:26,102,0,0,0,0;}
 
 .body {
   transition: fill 1s;
@@ -19,9 +20,32 @@
 }
 
 .dotted-line {
-	animation: pass 0.10s linear infinite;
+	animation: passLine 0.22s linear infinite;
 }
-@keyframes pass { 100% {transform:translateX(-5.5%);} }
+@keyframes passLine { 
+	0% {transform:translateX(0%);} 
+	100% {transform:translateX(-7.1%);}
+}
+
+.posts {
+ animation: passPosts 0.4s linear infinite;
+}
+@keyframes passPosts { 
+	0% {transform:translateX(0%);}
+	100% {transform:translateX(-11.5%);} 
+}
+
+@keyframes spin {
+	100% {transform:rotate(360deg);}
+}
+
+.wheel-blur {
+	animation: spin linear 10s infinite;
+	transform-origin: 50% 50% 0;
+}
+
+
+
 
 #car {
 	transition: transform 2s;
@@ -30,5 +54,8 @@
 @keyframes bounce {}
 
 #car.in-lane-2 {
-	transform: translate(20%, -65%);
+	
+	
+	transform: scale(0.9);
+	transform: translate(0%, -55%);
 }
