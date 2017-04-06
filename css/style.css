@@ -1,0 +1,32 @@
+.sky{fill:#5EC7F5;}
+.grass{fill:#4D944F;}
+.road{fill:#4D4D4D;}
+.dotted-line{fill:none;stroke:#FFFF00;stroke-width:25;stroke-miterlimit:10;stroke-dasharray:75,50,0,0,0,0;}
+.body{fill:#0071BC;}
+.rear-bumper{fill:#B3B3B3;}
+.front-bumper{fill:#B3B3B3;}
+.rear-rim{fill:#B3B3B3;}
+.front-rim{fill:#B3B3B3;}
+.rear-tire{fill:#1A1A1A;}
+.front-tire{fill:#1A1A1A;}
+
+.body {
+  transition: fill 1s;
+}
+
+.body.is-red {
+  fill: darkred;
+}
+
+.dotted-line {
+	animation: pass 0.25s infinite;
+}
+@keyframes pass { 20% {transform:translateX(20%); } }
+
+#car {
+	transition: transform 2s;
+}
+
+#car.in-lane-2 {
+	transform: translate(20%, -65%);
+}
