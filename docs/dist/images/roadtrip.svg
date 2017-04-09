@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 791" style="enable-background:new 0 0 1920 791;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5EC7F5;}
+	.st1{fill:#4D944F;}
+	.st2{fill:#5A5A5A;}
+	.st3{fill:#90A6C4;}
+	.st4{fill:#79969A;}
+	.st5{fill:none;stroke:#4F3D1F;stroke-width:26;stroke-miterlimit:10;stroke-dasharray:26,102,0,0,0,0;}
+	.st6{fill:#B3B3B3;}
+	.st7{fill:#C8C8C8;}
+	.st8{fill:none;stroke:#4F4E53;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:6,122,0,0,0,0;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:25;stroke-miterlimit:10;stroke-dasharray:100,100,0,0,0,0;}
+	.st10{fill:#004873;}
+	.st11{fill:#1A1A1A;}
+	.st12{fill:#5A5A5A;stroke:#C8C8C8;stroke-miterlimit:10;}
+	.st13{opacity:0.29;enable-background:new    ;}
+	.st14{fill:#0071BC;}
+	.st15{fill:#FFFFFF;}
+	.st16{display:none;opacity:0.69;}
+</style>
+<g id="background">
+	<rect id="sky_1_" class="st0" width="1920" height="791"/>
+	<rect id="grass_1_" y="225" class="st1" width="1920" height="566"/>
+	<rect id="road_1_" y="368" class="st2" width="1920" height="423"/>
+	<polygon id="distant-mtn" class="st3" points="1920,225 1920,20 1473.6,129.6 1397,96.6 1170.2,156.2 1170.2,225 	"/>
+	<polygon id="near-mtn" class="st4" points="0,225 0,171.6 177.9,84.6 244.5,101.1 492.6,20 935.1,122.5 1013.1,102.6 1142.1,147.6 
+		1347.6,210.6 1404.6,189.6 1742.1,225 	"/>
+</g>
+<g id="gaurd-rail">
+	<line id="posts" class="st5" x1="-127" y1="369.6" x2="2085" y2="369.6"/>
+	<g id="rail">
+		<rect x="-127" y="312" class="st6" width="2212" height="44"/>
+		<rect x="-127" y="325" class="st7" width="2212" height="17"/>
+	</g>
+	<line id="rivets" class="st8" x1="-116" y1="334" x2="2096" y2="334"/>
+</g>
+<g id="line">
+	<line id="dotted-line" class="st9" x1="0" y1="579.5" x2="2794" y2="579.5"/>
+</g>
+<g id="car">
+	<rect id="front-well" x="622.5" y="581" class="st10" width="191" height="83.7"/>
+	<rect id="rear-well" x="176" y="581.3" class="st10" width="191" height="83.7"/>
+	<g id="front-wheel_1_">
+		<circle id="front-tire" class="st11" cx="703" cy="665" r="73"/>
+		<circle id="front-rim" class="st6" cx="703" cy="665" r="41"/>
+		<g id="rear-wheel-blur_1_">
+			<path class="st7" d="M703,665.1l-34,13.5c0,0-8.1-17.2,2-33.2L703,665.1z"/>
+			<path class="st7" d="M703,664.9l34-13.5c0,0,8.1,17.2-2,33.2L703,664.9z"/>
+			<circle class="st12" cx="703" cy="664.9" r="5"/>
+		</g>
+	</g>
+	<g id="rear-wheel_1_">
+		<circle id="rear-tire_2_" class="st11" cx="263" cy="665" r="73"/>
+		<circle id="rear-rim_2_" class="st6" cx="263" cy="665" r="41"/>
+		<g id="rear-wheel-blur">
+			<path class="st7" d="M263,664.2l-34,13.5c0,0-8.1-17.2,2-33.2L263,664.2z"/>
+			<path class="st7" d="M263,664l34-13.5c0,0,8.1,17.2-2,33.2L263,664z"/>
+			<circle class="st12" cx="263" cy="664" r="5"/>
+		</g>
+	</g>
+	<path id="car-shadow" class="st13" d="M900,738H126c-6.6,0-12-5.4-12-12v-4.3c0-6.6,5.4-12,12-12h774c6.6,0,12,5.4,12,12v4.3
+		C912,732.6,906.6,738,900,738z"/>
+	<g id="wagon">
+		<path class="st14" d="M886,582c0,0-5.4-41.7-39-47c-146-23-146-23-146-23c-27-31.4-59.4-62.7-98-94c-104.5-13.2-208.4-11.7-312,0
+			c0,0-116,76-136,129s-18,118-18,118l49.2,0c0-42.4,34.4-76.8,76.8-76.8c42.4,0,76.8,34.3,76.8,76.7l286.3-0.2
+			c0.2-42.3,34.5-76.5,76.8-76.5c42.3,0,76.6,34.2,76.8,76.4l106.7-0.1L886,582z"/>
+		<path id="rear-bumper" class="st6" d="M162,674h-36c-6.6,0-12-5.4-12-12v-23c0-6.6,5.4-12,12-12h36c6.6,0,12,5.4,12,12v23
+			C174,668.6,168.6,674,162,674z"/>
+		<path id="front-bumper" class="st6" d="M900,674h-36c-6.6,0-12-5.4-12-12v-23c0-6.6,5.4-12,12-12h36c6.6,0,12,5.4,12,12v23
+			C912,668.6,906.6,674,900,674z"/>
+		<path id="rear-windshield" d="M270.7,432L203,512h-25.1C177.9,512,214.5,465,270.7,432z"/>
+		<rect id="rear-window" x="295" y="432" width="147" height="80"/>
+		<polygon id="front-window" points="601.8,432.5 461,432 461,512 684,512 		"/>
+		<g id="headlight">
+			
+				<ellipse transform="matrix(0.8876 -0.4606 0.4606 0.8876 -162.8961 463.8391)" class="st7" cx="869" cy="565.7" rx="5.1" ry="24.1"/>
+			
+				<ellipse transform="matrix(0.8876 -0.4606 0.4606 0.8876 -163.0439 463.3862)" class="st15" cx="868" cy="565.8" rx="4.1" ry="19.1"/>
+		</g>
+		<rect id="darkness" class="st16" width="1920" height="791"/>
+	</g>
+</g>
+<path id="cloud" class="st15" d="M2146.8,112.2h618c0,0,70,6,68-32s-72-70-98-60c0,0,6-64-46-68c0,0-162-62-214,10
+	c0,0-122.9,26-130.5,66c0,0-7.5-24-37.5-18c0,0-10-68-54-68c0,0-90-14.5-98,77.8c0,0-86-15.8-80,28.2c0,0-70-16-72,16
+	c0,0-51.9-30-79.9,6c0,0-18.1,42.7,35.9,42.3L2146.8,112.2z"/>
+</svg>
