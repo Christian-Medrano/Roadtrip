@@ -92,9 +92,35 @@
 	-o-transition: -o-transform 2s;
 	transition: transform 2s;
 	transition: transform 2s, -webkit-transform 2s, -o-transform 2s;
-	-webkit-animation: bounce 1s infinite;
-	     -o-animation: bounce 1s infinite;
-	        animation: bounce 1s infinite;
+}
+
+#wagon {
+	-webkit-animation: rock 0.2s infinite;
+	     -o-animation: rock 0.2s infinite;
+	        animation: rock 0.2s infinite;
+	-webkit-transform-origin: 50% 50% 0;
+	     -o-transform-origin: 50% 50% 0;
+	        transform-origin: 50% 50% 0;
+}
+
+@keyframes rock {
+	0% {transform: rotate(0deg);}
+	50% {transform: rotate(0.5deg);}
+	100% {transform: rotate(0deg);}
+}
+
+.wheel1 {
+	animation: bounce 0.2s infinite;
+}
+
+.wheel2 {
+	animation: bounce 0.2s infinite;
+}
+
+@keyframes bounce {
+	0% {transform: translateY(0%);};
+	75% {transform: translateY(3px);}
+	100% {transform: translateY(0%);};
 }
 
 #car.in-lane-2 {

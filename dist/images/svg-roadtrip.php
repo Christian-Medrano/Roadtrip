@@ -52,6 +52,8 @@
 			<path class="car-shadow" d="M900,738H126c-6.6,0-12-5.4-12-12v-4.3c0-6.6,5.4-12,12-12h774c6.6,0,12,5.4,12,12v4.3
 				C912,732.6,906.6,738,900,738z"/>
 
+
+			<g id="wagon">
 			<path class="body" d="M137 665l749.5-0.5L886 582c0 0-5.4-41.7-39-47 -146-23-146-23-146-23s-58-64-98-94 -312 0-312 0 -116 76-136 129S137 665 137 665z"/>
 
 			<path class="rear-bumper" d="M162 674h-36c-6.6 0-12-5.4-12-12v-23c0-6.6 5.4-12 12-12h36c6.6 0 12 5.4 12 12v23C174 668.6 168.6 674 162 674z"/>
@@ -69,8 +71,9 @@
 				
 				<ellipse transform="matrix(0.8876 -0.4606 0.4606 0.8876 -163.0606 463.3764)" class="st8" cx="868" cy="565.8" rx="4.1" ry="19.1"/>
 			</g>
+			</g>
 				
-			<g id="front-wheel_1_">
+			<g id="front-wheel_1_" class="wheel1">
 					<circle class="front-tire" cx="703" cy="665" r="73"/>
 					<circle class="front-rim" cx="703" cy="665" r="41"/>
 					<g class="wheel-blur">
@@ -80,7 +83,7 @@
 					</g>
 				</g>
 
-			<g id="rear-wheel">
+			<g id="rear-wheel" class="wheel2">
 				<circle class="rear-tire" cx="263" cy="665" r="73"/>
 				<circle class="rear-rim" cx="263" cy="665" r="41"/>
 				<g class="wheel-blur">
